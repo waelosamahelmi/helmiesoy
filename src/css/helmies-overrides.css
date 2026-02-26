@@ -1,0 +1,123 @@
+/* =========================================
+   Helmies Oy — Brand Overrides
+   Colors: #261447, #23c9ff, #c0fff3, #ffffff
+   Font: Nunito
+   ========================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700&display=swap');
+
+:root {
+  --font-body: 'Nunito', sans-serif;
+  --font-heading: 'Nunito', sans-serif;
+  --color-primary: #23c9ff;
+  --color-secondary: #261447;
+  --color-heading: #fff;
+  --color-default: #c0fff3;
+  --color-body: #261447;
+  --color-white: #fff;
+  --color-black: #0d0a14;
+}
+
+/* Body background */
+body {
+  font-family: 'Nunito', sans-serif !important;
+  background-color: #261447 !important;
+}
+
+/* Headings use Nunito */
+h1, h2, h3, h4, h5, h6,
+.sec-title .title,
+.hero-content .title,
+.xb-item--title,
+.xb-footer-heading .title {
+  font-family: 'Nunito', sans-serif !important;
+}
+
+/* Primary accent color (buttons, highlights) */
+.thm-btn,
+.thm-btn.agency-btn {
+  background-color: #23c9ff !important;
+  color: #261447 !important;
+}
+
+.thm-btn:hover,
+.thm-btn.agency-btn:hover {
+  background-color: #c0fff3 !important;
+  color: #261447 !important;
+}
+
+/* Sub-titles */
+.sub-title {
+  color: #23c9ff !important;
+}
+
+/* Feature items border glow */
+.xb-feature-item .xb-item--inner.xb-border {
+  border-color: rgba(35, 201, 255, 0.2) !important;
+}
+
+.xb-feature-item .xb-item--inner.xb-border:hover {
+  border-color: #23c9ff !important;
+}
+
+/* Service items */
+.xb-service-item.active .xb-item--inner,
+.xb-service-item:hover .xb-item--inner {
+  border-color: #23c9ff !important;
+}
+
+/* Contact section stats */
+.xb-contact-item .xb-item--number .suffix,
+.xb-contact-item .xb-item--number .xbo {
+  color: #23c9ff !important;
+}
+
+/* Footer heading */
+.xb-footer-heading .title {
+  background: linear-gradient(135deg, #23c9ff, #c0fff3) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+/* Scrollbar / back-to-top */
+.xb-backtotop a {
+  background-color: #23c9ff !important;
+  color: #261447 !important;
+}
+
+/* Link hover colors */
+a:hover {
+  color: #23c9ff !important;
+}
+
+/* Selection color */
+::selection {
+  background-color: #23c9ff;
+  color: #261447;
+}
+
+/* Custom border accents */
+.xb-border {
+  border-color: rgba(35, 201, 255, 0.15) !important;
+}
+
+/* Hero section gradient overlay */
+.hero-style::before {
+  background: linear-gradient(135deg, rgba(38, 20, 71, 0.95), rgba(38, 20, 71, 0.7)) !important;
+}
+
+/* Nice select dropdown styling */
+.nice-select .list {
+  background-color: #1a0e33 !important;
+}
+
+/* Form button styling */
+.thm-btn.form-btn {
+  background-color: #23c9ff !important;
+  color: #261447 !important;
+}
+
+.thm-btn.form-btn:hover {
+  background-color: #c0fff3 !important;
+}
